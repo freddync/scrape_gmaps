@@ -21,5 +21,5 @@ for option in options:
 
 driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
-driver.get('http://nytimes.com')
+driver.get('https://maps.app.goo.gl/5mf9YyCCaBU1tNYr8')
 print(driver.title)
