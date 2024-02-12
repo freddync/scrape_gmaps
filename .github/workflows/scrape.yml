@@ -1,6 +1,7 @@
 name: scrape
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '/5 * * * *' # At 15 on Every Hour
 jobs:
   scrape:
     runs-on: ubuntu-latest
